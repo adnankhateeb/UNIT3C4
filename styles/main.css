@@ -28,6 +28,7 @@ html {
 }
 
 #sidebar > * {
+  width: max-content;
   cursor: pointer;
 }
 
