@@ -27,7 +27,7 @@ function appendArticles(articles, main) {
         let img = document.createElement('img');
         img.src = el.urlToImage;
 
-        let title = document.createElement('h2')
+        let title = document.createElement('p')
         title.innerText = el.title;
         title.style.fontWeight = '500'
 
