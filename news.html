@@ -45,5 +45,15 @@
 
   appendArticle(articles, main);
 
+  let searchbar = document.getElementById('searchbar');
+
+  searchbar.addEventListener('keypress', (e) => {
+    if (e.key == 'Enter') {
+      let search_term = searchbar.value
+      localStorage.setItem('search_term', search_term);
+      window.location.href = "search.html"
+    }
+  })
+
 
 </script>

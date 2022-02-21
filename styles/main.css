@@ -24,6 +24,7 @@ html {
 
 #sidebar input {
   width: 60%;
+  cursor: auto;
 }
 
 #sidebar > * {
@@ -45,6 +46,7 @@ html {
   padding: 1%;
   border: 1px solid rgb(202, 202, 202);
   background-color: white;
+  cursor: pointer;
 }
 
 #news img {
