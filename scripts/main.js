@@ -66,7 +66,7 @@ function appendArticle(articles, main) {
         let img = document.createElement('img');
         img.src = el.urlToImage;
 
-        let title = document.createElement('p')
+        let title = document.createElement('h1')
         title.innerText = el.title;
         title.style.fontWeight = "bold"
 
