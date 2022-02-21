@@ -68,7 +68,7 @@ function appendArticle(articles, main) {
 
         let title = document.createElement('h1')
         title.innerText = el.title;
-        title.style.fontWeight = "bold"
+        // title.style.fontWeight = "bold"
 
         let desc = document.createElement('p')
         desc.innerText = el.description;
